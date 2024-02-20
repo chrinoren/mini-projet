@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+html {
+    background-color: rgba(194, 212, 219, 0.842);
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+span{
+    color:#F9745C;
+}
+.main{
+    display: flex ;
+    width: 465px;
+    padding:30px;
+    margin-top:70px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px #0000007e;
+    /* background-color: #fff; */
+}
+.pr{
+    padding:5px;
+    
+}
+input{
+    padding :10px;
+    border:1px solid #000;
+    outline :none;
+    margin:10px;
+    border-radius: 5px;
+    width: 270px;
+    transition: 0.2s;
+}
+input:hover,input:focus{
+    border:1px solid rgb(0, 140, 255);
+    tra
+}
+button{
+    padding:10px;
+    border-radius: 5px;
+    background-color: #4D8885;
+    color:#fff;
+    border:1px solid #4D8885;
+    transition: 0.2s;
+    margin-bottom:10px;
+}
+button:hover{
+    padding:10px;
+    background-color:#000000cb;
+    color:#fff;
+    border:1px solid #000000cb;
+}
+.beta{
+    position: absolute; 
+    margin-top: 800px;
+}
+@media(max-width:1046px){
+    .main{
+        width: 345px;
+        padding:20px;
+        
+    }
+    button{
+    display: flex;
+    margin-left:11px;
+    }
+    
+    .beta{
+        /* position: absolute;  */
+        font-size: 15px;
+        margin-top: 910px;
+    }
+}
